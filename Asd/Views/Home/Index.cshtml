@@ -1,0 +1,18 @@
+﻿@model List<Flower>
+<!-- указываем тип модели-->
+
+
+<div class="flower-container">
+    <!-- указываем что используем само значение модели -->
+    @foreach (var flower in Model)
+    {
+        <div class="flower-item">
+            <img class="flower-image" src="@flower.Image"/>
+            <div class="flower-title">@flower.Name</div>
+            <div class="flower-description">@(flower.Description.Length > 50 ? flower.Description.Substring(0, 50) : flower.Description)</div>
+            <div class="flower-price">@flower.Price руб.</div>
+            <div class="flower-height">@flower.Height см.</div>
+            <a class="flower-more" href="Home/Flowers?id=@flower.Id">Подробнее</a>
+        </div>
+    }
+</div>

@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.flower-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.flower-item{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 600px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.flower-title{
+    margin-top: 10px;
+    font-size: 50px;
+}
+.flower-description{
+    margin-top: 10px;
+    font-size: 20px;
+}
+.flower-price, .flower-height{
+    margin-top: 10px;
+    font-size: 30px;
+}
+.flower-more{
+    width: 200px;
+    background: red;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 80px;
+    background: lightgray;
+}
+.header-icon {
+    width: 50px;
+    margin-top: auto;
+    margin-bottom: auto;
+    height: 50px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.nav-item{
+    font-size: 25px;
+}

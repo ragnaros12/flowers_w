@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/artem/RiderProjects/Asd/Asd/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
+      "Id": "/Users/artem/RiderProjects/Asd/Asd/wwwroot/css/style.css",
+      "PackagePath": "staticwebassets/css/style.css"
+    },
+    {
+      "Id": "/Users/artem/RiderProjects/Asd/Asd/wwwroot/images/.DS_Store",
+      "PackagePath": "staticwebassets/images/.DS_Store"
+    },
+    {
+      "Id": "/Users/artem/RiderProjects/Asd/Asd/wwwroot/images/icon.png",
+      "PackagePath": "staticwebassets/images/icon.png"
+    },
+    {
+      "Id": "/Users/artem/RiderProjects/Asd/Asd/wwwroot/images/pions.jpeg",
+      "PackagePath": "staticwebassets/images/pions.jpeg"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.Asd.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.Asd.props",
+      "PackagePath": "build\\Asd.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Asd.props",
+      "PackagePath": "buildMultiTargeting\\Asd.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Asd.props",
+      "PackagePath": "buildTransitive\\Asd.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
