@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "Hash": "lNDay88PTwFWwjxxa8pO0nLk/UTnCZoCtoPiWCeY+D8=",
+  "Source": "Asd",
+  "BasePath": "_content/Asd",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "Asd\\wwwroot",
+      "Source": "Asd",
+      "ContentRoot": "C:\\Users\\khlop\\source\\repos\\flowers\\Asd\\wwwroot\\",
+      "BasePath": "_content/Asd",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\khlop\\source\\repos\\flowers\\Asd\\wwwroot\\css\\style.css",
+      "SourceId": "Asd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\khlop\\source\\repos\\flowers\\Asd\\wwwroot\\",
+      "BasePath": "_content/Asd",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    },
+    {
+      "Identity": "C:\\Users\\khlop\\source\\repos\\flowers\\Asd\\wwwroot\\images\\icon.png",
+      "SourceId": "Asd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\khlop\\source\\repos\\flowers\\Asd\\wwwroot\\",
+      "BasePath": "_content/Asd",
+      "RelativePath": "images/icon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\icon.png"
+    },
+    {
+      "Identity": "C:\\Users\\khlop\\source\\repos\\flowers\\Asd\\wwwroot\\images\\pions.jpeg",
+      "SourceId": "Asd",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\khlop\\source\\repos\\flowers\\Asd\\wwwroot\\",
+      "BasePath": "_content/Asd",
+      "RelativePath": "images/pions.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\pions.jpeg"
+    }
+  ]
+}

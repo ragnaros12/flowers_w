@@ -6,55 +6,32 @@ namespace Asd.Controllers;
 
 public class HomeController : Controller
 {
+    private Database _database;
+
+    public HomeController(Database database)
+    {
+        _database = database;
+    }
+
     public IActionResult Index()
     {
-        List<Flower> flowers = new List<Flower> {
-            new()
-            {
-                Description = "Цветок Цветок Цветок Цветок Цветок Цветок Цветок Цветок Цветок",
-                Height = 100,
-                Id = 1,
-                Image = "images/pions.jpeg",
-                Name = "Пионы",
-                Price = 100
-            },
-            new()
-            {
-                Description = "Цветок Цветок Цветок Цветок Цветок Цветок Цветок Цветок Цветок",
-                Height = 100,
-                Id = 1,
-                Image = "images/pions.jpeg",
-                Name = "Пионы",
-                Price = 100
-            },
-            new()
-            {
-                Description = "Цветок Цветок Цветок Цветок Цветок Цветок Цветок Цветок Цветок",
-                Height = 100,
-                Id = 1,
-                Image = "images/pions.jpeg",
-                Name = "Пионы",
-                Price = 100
-            },
-            new()
-            {
-                Description = "Цветок Цветок Цветок Цветок Цветок Цветок Цветок Цветок Цветок",
-                Height = 100,
-                Id = 1,
-                Image = "images/pions.jpeg",
-                Name = "Пионы",
-                Price = 100
-            },
-            new()
-            {
-                Description = "Цветок Цветок Цветок Цветок Цветок Цветок Цветок Цветок Цветок",
-                Height = 100,
-                Id = 1,
-                Image = "images/pions.jpeg",
-                Name = "Пионы",
-                Price = 100
-            }
-        };
-        return View(flowers);
+        return View(_database.Flowers.ToList());
+    }
+
+    public IActionResult Add()
+    {
+        return View();
+    }
+
+    [HttpPost]
+    public IActionResult Add(Flower flower)
+    {
+        if (ModelState.IsValid)
+        {
+            _database.Flowers.Add(flower);
+            _database.SaveChanges();
+			return Redirect(nameof(Index));
+		}
+        return Content(string.Join("\n", ModelState.Values.SelectMany(v => v.Errors).Select(e => e.ErrorMessage)));
     }
 }
